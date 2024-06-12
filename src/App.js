@@ -1,13 +1,14 @@
-import React from 'react'
-import './App.css'
-import Stack from '@mui/material/Stack'
-
-import WidgetList from './components/WidgetList'
+import React from 'react';
+import './App.css';
+import Stack from '@mui/material/Stack';
+import WidgetHome from './components/WidgetHome/WidgetHome';
 
 const App = () => {
-  return (<Stack>
-    <WidgetList></WidgetList>
-  </Stack>)
-}
+  return (
+    <Stack>
+      <WidgetHome />
+    </Stack>
+  );
+};
 
-export default App
+export default App;
